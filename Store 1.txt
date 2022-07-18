@@ -1,0 +1,10 @@
+select city, ship_mode, count(*), rank() over (partition by city order by count(*) desc) as Ranknum from orders group by city, ship_mode order by count(*) desc, city;
+
+
+select city, ship_mode, count(ship_mode), rank() over (partition by city order by city, count(ship_mode) desc) as Ranknum from orders group by city, ship_mode; order by count(*) desc, city;
+
+
+
+select city, ship_mode, count(*) from orders group by city, ship_mode order by count(*) desc;
+
+select city, ship_mode, count(*) from orders partition by city group by city, ship_mode order by count(*) desc;
