@@ -1,0 +1,33 @@
+1	Citywise count(shipping mode) in desc order
+
+2	Statewise avg(price) per order
+
+3	Regionwise count(segments)
+
+4	Top 10 cities with most number of orders
+
+5	Most ordered product in each segment along with its count, category and sub-category 
+
+6	Top 5 managers under whom most profits have been earned
+
+7	Top 3 returned products
+
+8	Have discounts led to increase in profits ?  (Discounted vs Non-discounted) Count(orders) & Profit amount
+
+9	Day, month, year in which most orders were placed 
+
+10	Day on which most  "Sameday"  orders were placed 
+
+11	Product that was ordered the maximum on sameday delivery 
+
+12	Most valuble customer in each state
+
+13	Top 3 valuble customers in each segment
+
+14	Display returned orderid statewise to the corresponding manager separated by '||'
+
+15	Difference bw Order date and Ship date (statewise & productwise)
+
+16	Unique products for each city --- New vendor ID generation
+
+17	Retrn table - Assign a name based on the first 2 letters
